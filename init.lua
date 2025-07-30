@@ -1,7 +1,14 @@
 -- mod-version:3
 local core = require "core"
 
--- Ensure theme is loaded automatically
-core.add_thread(function()
+local function load_theme()
   core.reload_module("plugins.lite-xl-panda-theme.colors.panda")
-end)
+end
+
+-- Automatically load on require
+load_theme()
+
+-- Optional: expose the function if user wants to reapply
+return {
+  load = load_theme
+}

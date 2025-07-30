@@ -1,0 +1,25 @@
+
+* Panda
+
+inspired by panda theme. clear and clean dark theme that does not steal your focus.
+
+* Installation
+
+clone in plugins folder.
+
+* Usage
+
+in your init.lua config you require the theme use =load()= to load it later you can override some styles :
+
+#+begin_src lua
+-- theme panda
+local panda = require "plugins.lite-xl-panda-theme"
+panda.load() -- when you decide to
+
+-- override styles
+style.text = { common.color "#FFFFFF" }
+style.background2 = style.background
+style.background3 = style.background
+style.divider = style.background
+
+#+end_src
