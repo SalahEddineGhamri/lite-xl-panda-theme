@@ -3,6 +3,9 @@
 
 inspired by panda theme. clear and clean dark theme that does not steal your focus.
 
+![Screenshot](https://raw.githubusercontent.com/SalahEddineGhamri/lite-xl-panda-theme/master/media/panda_litexl.png)
+
+
 * Installation
 
 clone in plugins folder.
